@@ -10,8 +10,16 @@
   width: 1170px;
   margin: 0 auto;
 
+  @include tablet {
+    width: 720px;
+  }
+
   @include mobile {
     width: 320px;
+  }
+
+  @include mobile_s {
+    width: 300px;
   }
 }
 
@@ -87,6 +95,16 @@
       &:visited {
         color: #0b4bec;
       }
+    }
+  }
+
+  &__burger {
+    font-size: 18px;
+    color: #fff;
+    display: none;
+
+    @include mobile {
+      display: block;
     }
   }
 }
