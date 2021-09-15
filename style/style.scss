@@ -56,6 +56,7 @@
     display: none;
 
     @include mobile {
+      z-index: 3;
       display: block;
     }
   }
@@ -82,9 +83,17 @@
   display: flex;
 
   @include mobile {
+    display: none;
+    position: fixed;
     flex-direction: column;
-    position: absolute;
+    align-items: center;
+    width: 100%;
+    padding: 24px 0;
     background: linear-gradient(165deg, #0b4bec 10%, #071d68 80%);
+
+    &_active {
+      display: flex;
+    }
   }
 
   &__link {
@@ -96,7 +105,6 @@
 
     @include mobile {
       margin: 12px 0;
-      float: right;
     }
 
     &:visited {
