@@ -1,0 +1,22 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 583" width="330" height="583">
+	<title>test</title>
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="422.162" y1="568.143" x2="237.838" y2="0.855">
+			<stop offset="0" stop-color="#061d68"  />
+			<stop offset="1" stop-color="#0b4aec"  />
+		</linearGradient>
+		<linearGradient id="grd2" gradientUnits="userSpaceOnUse"  x1="469.161" y1="692.143" x2="284.838" y2="124.855">
+			<stop offset="0" stop-color="#061d68" stop-opacity="0.2" />
+			<stop offset="1" stop-color="#0b4aec" stop-opacity="0.2" />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { opacity: 0.251;mix-blend-mode: multiply;fill: url(#grd1) } 
+		.shp1 { mix-blend-mode: multiply;fill: url(#grd2) } 
+	</style>
+	<g id="Banner">
+		<path id="Rounded Rectangle 2" class="shp0" d="M12.55 199.05L113.49 37.19C136.04 1.04 183.65 -10 219.82 12.54L622.79 263.67C658.96 286.21 670 333.8 647.45 369.95L546.51 531.8C523.96 567.96 476.35 579 440.18 556.46L37.21 305.33C1.04 282.79 -10 235.2 12.55 199.05Z" />
+		<path id="Rounded Rectangle 2 copy" class="shp1" d="M59.55 323.05L160.49 161.19C183.04 125.04 230.65 114 266.82 136.54L669.79 387.67C705.96 410.21 717 457.8 694.45 493.95L593.51 655.8C570.95 691.96 523.35 703 487.18 680.46L84.21 429.33C48.04 406.79 37 359.2 59.55 323.05Z" />
+	</g>
+</svg>

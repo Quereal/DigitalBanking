@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Digital Banking</title>
+	<link href="./style/style.css" rel="stylesheet" type="text/css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@300;400;600;800&family=Raleway&display=swap" rel="stylesheet">
+
+  <!-- OwlCarousel -->
+  <link rel="stylesheet" href="./owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="./owlcarousel/owl.theme.default.min.css">
+
+  <!--FontAwesome -->
+  <script defer src="./fontawesome/all.js"></script>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container header__container">
+			<img class="header__logo" src="./img/logo.png">
+      <nav class="menu">
+        <a class="menu__link" href="">Cards</a>
+        <a class="menu__link" href="">Serivce</a>
+        <a class="menu__link" href="">Banking</a>
+        <a class="menu__link" href="">FAQ</a>
+        <a class="menu__link" href="">Contact</a>
+        <a class="menu__link menu__link_account" href="">Create Account</a>
+      </nav>
+    </div>
+  </header>
+  <section class="row row_credit-card-block">
+    <div class="container">
+      <h1 class="row__title row__title_take-a-card">To Make Your Life Easier Take a Card</h1>
+      <p class="row__text">There are many variations of passages of Lorem Ipsum vailable, but the majority have suffered There are many variations of assages of Lorem Ipsum randomised words which don't look even slightly elievable.</p>
+      <a class="row__button">Apply Now</a>
+    </div>
+  </section>
+  <section class="row row_get-card-block">
+    <div class="container">
+      <h3 class="row__subtitle">Easy process</h3>
+      <h2 class="row__title">To get a credit card</h2>
+      <div class="process-card">
+        <div class="process-card__item">
+          <div class="process-card__icon"><img src="./img/application-icon.png" alt="Online Application"></div>
+          <h3 class="process-card__title">Online Application</h3>
+          <p class="process-card__text">Information in the database is published in two formats. It is available in PDF comparison according to type of credit card.</p>
+        </div>
+        <div class="process-card__item">
+          <div class="process-card__icon"><img src="./img/approval-icon.png" alt="Get Approval"></div>
+          <h3 class="process-card__title">Get Approval</h3>
+          <p class="process-card__text">Information in the database is published in two formats. It is available in PDF comparison according to type of credit card.</p>
+        </div>
+        <div class="process-card__item">
+          <div class="process-card__icon"><img src="./img/card-icon.png" alt="Get Your Card"></div>
+          <h3 class="process-card__title">Get Your Card</h3>
+          <p class="process-card__text">Information in the database is published in two formats. It is available in PDF comparison according to type of credit card.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="row">
+    <div class="container">
+      <h3 class="row__subtitle">Useful service available</h3>
+      <h2 class="row__title">Service of credit card</h2>
+        <div class="carousel owl-carousel owl-theme">
+            <div class="carousel__item">
+              <div class="carousel__image"><img src="./img/balance.jpg"></div>
+              <h4 class="carousel__title">Balance transform</h4>
+            </div>
+            <div class="carousel__item">
+              <div class="carousel__image"><img src="./img/internet.jpg"></div>
+              <h4 class="carousel__title">Internet Banking</h4>
+            </div>
+            <div class="carousel__item">
+              <div class="carousel__image"><img src="./img/payment.jpg"></div>
+              <h4 class="carousel__title">Buying Payment</h4>
+            </div>
+            <div class="carousel__item">
+              <div class="carousel__image"><img src="./img/air-ticket.jpg"></div>
+              <h4 class="carousel__title">Buy Air Tickets</h4>
+            </div>
+            <div class="carousel__item">
+              <div class="carousel__image"><img src="./img/mobile.jpg"></div>
+              <h4 class="carousel__title">Mobile Recharge</h4>
+            </div>
+        </div>
+      </div>
+  </section>
+  <section class="row row_numbers">
+    <div class="container">
+      <div class="numbers">
+        <div class="numbers__item">
+          <div class="numbers__icon"><i class="fas fa-users"></i></div>
+          <h2 class="numbers__number">725M</h2>
+          <h3 class="numbers__title">Happy Users</h3>
+        </div>
+        <div class="numbers__item">
+          <div class="numbers__icon"><i class="fas fa-heart"></i></div>
+          <h2 class="numbers__number">700M</h2>
+          <h3 class="numbers__title">User Applications</h3>
+        </div>
+        <div class="numbers__item">
+          <div class="numbers__icon"><i class="fas fa-shopping-cart"></i></div>
+          <h2 class="numbers__number">10M+</h2>
+          <h3 class="numbers__title">Payment Services</h3>
+        </div>
+        <div class="numbers__item">
+          <div class="numbers__icon"><i class="fas fa-rocket"></i></div>
+          <h2 class="numbers__number">600M</h2>
+          <h3 class="numbers__title">User Feedbacks</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="row">
+    <div class="container">
+      <h2 class="row__title row__title_contact">Your Message</h2>
+      <form class="contact-form">
+        <div class="contact-form__row">
+          <input class="contact-form__field" type="text" name="name" placeholder="Your Name">
+          <input class="contact-form__field" type="email" name="email" placeholder="Email Address">
+          <input class="contact-form__field" type="text" name="subject" placeholder="Subject">
+        </div>
+        <div class="contact-form__row">
+          <textarea class="contact-form__field contact-form__field_message" name="message" placeholder="Message"></textarea>
+          <input class="contact-form__field contact-form__field_submit" type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__text">Copyright @ Digital Marketing. All Rights Reseverd</p>
+    </div>
+  </footer>
+
+  <script src="./jquery.min.js"></script>
+  <script src="./owlcarousel/owl.carousel.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
