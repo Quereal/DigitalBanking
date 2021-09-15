@@ -410,7 +410,7 @@
 
 .process-card__item:hover {
   margin: 0;
-  padding: 50px 35px;
+  padding: 90px 35px;
   color: #fff;
   background: linear-gradient(165deg, #0b4bec 10%, #071d68 80%);
 }
