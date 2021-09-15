@@ -307,10 +307,6 @@
     margin: 42px 0;
     transition: margin 0.1s, padding 0.1s;
 
-    @include tablet {
-      
-    }
-
     @include mobile {
       margin: 16px 0;
       padding: 34px 35px;
