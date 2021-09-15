@@ -48,7 +48,17 @@
       width: 150px;
       float: left;
     }
-  }  
+  }
+
+  &__burger {
+    font-size: 24px;
+    color: #fff;
+    display: none;
+
+    @include mobile {
+      display: block;
+    }
+  }
 }
 
 .footer {
@@ -69,9 +79,10 @@
   color: #fff;
   float: right;
   margin-top: 0;
+  display: flex;
 
   @include mobile {
-    display: none;
+    display: flex;
   }
 
   &__link {
@@ -95,16 +106,6 @@
       &:visited {
         color: #0b4bec;
       }
-    }
-  }
-
-  &__burger {
-    font-size: 18px;
-    color: #fff;
-    display: none;
-
-    @include mobile {
-      display: block;
     }
   }
 }
