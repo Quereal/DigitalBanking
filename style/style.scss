@@ -83,6 +83,8 @@
 
   @include mobile {
     flex-direction: column;
+    position: absolute;
+    background: linear-gradient(165deg, #0b4bec 10%, #071d68 80%);
   }
 
   &__link {
@@ -91,6 +93,11 @@
     text-transform: uppercase;
     margin-left: 44px;
     text-decoration: none;
+
+    @include mobile {
+      margin: 12px 0;
+      float: right;
+    }
 
     &:visited {
       color: #fff;
