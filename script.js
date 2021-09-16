@@ -4,8 +4,11 @@ $('.owl-carousel').owlCarousel({
   dots: false,
   margin: 30,
   responsive:{
-      900: {
+      1152: {
           items: 4
+      },
+      1024: {
+          items: 3
       },
       768: {
           items:2
